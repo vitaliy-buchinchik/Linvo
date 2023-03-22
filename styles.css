@@ -2539,7 +2539,7 @@ body {
   }
 
   .benefits_items {
-    height: 300px;
+    height: auto;
     padding: 10px;
   }
 
@@ -3140,7 +3140,6 @@ body {
 
   .benefits_items {
     width: 100%;
-    height: 250px;
   }
 
   .benefits_items:first-child {
@@ -3600,10 +3599,6 @@ body {
 }
 
 @media (max-width: 430px) {
-  .header_logo {
-    text-shadow: 2px 2px 2px #0C11CE;
-  }
-
   .mobile_nav_wrapper {
     padding: 0 10px;
   }
@@ -3725,6 +3720,16 @@ body {
 
   .HWW_block_title {
     padding: 0;
+  }
+
+  .HWW_buttons_wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .HWW_first_button {
+    margin-right: 0;
   }
 
   .code_introduction {
@@ -3859,18 +3864,463 @@ body {
   }
 }
 
-@media (max-width: 414px) { /* iPhone 6/7/8 plus */ }
+@media (max-width: 414px) {
+  .introduction {
+    background-size: 270% 100%;
+  }
 
-@media (max-width: 414px) and (min-height: 896px) { /* iPhone XR */ }
+  .advantage_image {
+    margin-bottom: 0;
+  }
 
-@media (max-width: 393px) { /* iPhone 14 Pro 393 × 852 */ }
+  .advantage_subtitle {
+    margin-bottom: 0;
+  }
 
-@media (max-width: 390px) { /* iPhone 12 Pro */ }
+  .office_subtitle {
+    padding-bottom: 4px;
+  }
 
-@media (max-width: 384px) { /* LG Optimus L70 */ }
+  .about_introduction {
+    background-position: left;
+  }
 
-@media (max-width: 375px) { /* iPhone 6/7/8 */ }
+  .WWA_block_title {
+    padding-bottom: 10px;
+  }
 
-@media (max-width: 375px) and (min-height: 812px) { /* iPhone X */ }
+  .team_introduction {
+    background-size: 270% 100%;
+  }
 
-@media (max-width: 320px) { /* iPhone 5/SE */ }
+  .teammate_name {
+    padding: 8px 0 4px;
+  }
+
+  .liquid_introduction {
+    background-size: 320% 100%;
+  }
+
+  .liquid_subtitle_block {
+    margin-bottom: 4px;
+  }
+
+  .non_liquid_subtitle_block {
+    margin-bottom: 4px;
+  }
+
+  .investments_wrapper {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 393px) {
+  .benefits_wrapper {
+    gap: 10px;
+  }
+
+  .benefits_items-title {
+    font-size: 24px;
+  }
+
+  .advantages_wrapper {
+    gap: 10px;
+  }
+
+  .article_title {
+    font-size: 28px;
+  }
+
+  .code_block_title {
+    font-size: 28px;
+  }
+
+  .liquid_logo {
+    padding-right: 8px;
+  }
+
+  .non_liquid_logo {
+    padding-right: 8px;
+  }
+
+  .family_introduction {
+    background-size: 350% 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  .ticket_image {
+    padding-right: 8px;
+  }
+}
+
+@media (max-width: 384px) {
+  .benefits_title{
+    margin-top: 10px;
+  }
+
+  .benefits_wrapper {
+    margin-bottom: 10px;
+  }
+
+  .advantages_container {
+    padding: 10px 0;
+  }
+
+  .office_title {
+    padding-top: 10px;
+  }
+
+  .office_services {
+    margin-bottom: 10px;
+  }
+
+  .assets_title {
+    padding-top: 10px;
+  }
+
+  .ticket_wrapper {
+    padding-bottom: 10px;
+  }
+
+  .ticket_text {
+    font-size: 24px;
+  }
+
+  .partners_title {
+    padding-top: 10px;
+  }
+
+  .contact_container {
+    padding: 10px 0;
+  }
+
+  .about_introduction {
+    background-size: 140% 100%;
+  }
+
+  .about_introduction_text {
+    padding-bottom: 0;
+  }
+
+  .WWA_wrapper {
+    padding: 10px 0;
+  }
+
+  .code_introduction {
+    background-size: 330% 100%;
+  }
+
+  .code_introduction_text {
+    padding-bottom: 0;
+  }
+
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper,
+  .liquid_assets,
+  .liquid_mandates,
+  .non_liquid_assets,
+  .non_liquid_mandates,
+  .alternative_investments,
+  .contacts_information {
+    padding: 10px 0;
+  }
+
+  .wealth_managing_info,
+  .asset_plan_info,
+  .life_investment_info,
+  .wealth_advisory_info {
+    padding-bottom: 10px;
+  }
+
+  .team_introduction_info {
+    padding-bottom: 0;
+  }
+
+  .teammates_wrapper,
+  .links_top_wrapper {
+    padding: 10px 0;
+  }
+
+  .teammate_name {
+    padding: 0;
+  }
+
+  .our_services_introduction {
+    background-size: 300% 100%;
+  }
+
+  .our_services_introduction_info {
+    padding-bottom: 0;
+  }
+
+  .our_services_link_title {
+    padding: 0;
+  }
+
+  .links_top_wrapper,
+  .links_bottom_wrapper {
+    gap: 10px;
+  }
+
+  .liquid_introduction {
+    background-size: 340% 100%;
+  }
+
+  .liquid_introduction_info {
+    padding-bottom: 0;
+  }
+
+  .liquid_logo {
+    height: 35px;
+  }
+
+  .non_liquid_introduction {
+    background-size: 340% 100%;
+  }
+
+  .non_liquid_introduction_info {
+    padding-bottom: 0;
+  }
+
+  .non_liquid_general_text {
+    padding: 10px 0;
+  }
+
+  .non_liquid_logo {
+    height: 35px;
+  }
+
+  .family_introduction {
+    background-size: 370% 100%;
+  }
+
+  .family_history {
+    padding: 10px 0;
+  }
+
+  .family_blocks_container {
+    top: 0;
+    padding: 10px 0;
+  }
+
+  .alternative_introduction {
+    background-size: 330% 100%;
+  }
+
+  .alternative_general_text {
+    padding: 10px 0;
+  }
+
+  .our_presentation_title,
+  .terms_and_conditions_title,
+  .privacy_policy_title,
+  .cookie_policy_title,
+  .legal_information_title {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .benefits_item-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .advantages_subtitle {
+    font-size: 18px;
+  }
+
+  .office_subtitle {
+    font-size: 18px;
+  }
+
+  .assets_subtitle {
+    font-size: 18px;
+  }
+
+  .asset_item-link-text {
+    padding-right: 10px;
+    font-size: 18px;
+  }
+
+  .assets_second_title {
+    padding-top: 20px;
+  }
+
+  .partners_subtitle {
+    font-size: 18px;
+  }
+
+  .contact_text {
+    margin-bottom: 10px;
+  }
+
+  .contact_link-wrapper:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .footer_link {
+    font-size: 14px;
+  }
+
+  .footer_adress {
+    font-size: 14px;
+  }
+
+  .copywrite_link {
+    font-size: 14px;
+  }
+
+  .footer_copywrite {
+    padding-bottom: 10px;
+  }
+
+  .copywrite_text {
+    font-weight: bold;
+  }
+
+  .about_introduction {
+    background-size: 150% 100%;
+  }
+
+  .HWW_subtitle {
+    font-size: 18px;
+  }
+
+  .code_block_subtitle {
+    font-size: 18px;
+  }
+
+  .team_introduction {
+    background-size: 300% 100%;
+  }
+
+  .teammate_name {
+    font-size: 24px;
+  }
+
+  .teammate_possition {
+    font-size: 16px;
+  }
+
+  .our_services_link_title {
+    font-size: 24px;
+  }
+
+  .liquid_introduction {
+    background-size: 370% 100%;
+  }
+
+  .liquid_subtitle {
+    font-size: 18px;
+  }
+
+  .non_liquid_subtitle {
+    font-size: 18px;
+  }
+
+  .family_introduction {
+    background-size: 400% 100%;
+  }
+
+  .history_info_title {
+    padding-bottom: 10px;
+  }
+
+  .family_block_title {
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 320px) {
+  .header_logo {
+    font-size: 28px;
+  }
+
+  .menu_link {
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: calc(100% - 10px);
+  }
+
+  .introduction {
+    background-size: 330% 100%;
+  }
+
+  .benefits_items {
+    padding: 5px;
+  }
+
+  .advantages {
+    background-size: 650% 100%;
+  }
+
+  .advantage {
+    padding: 5px;
+  }
+
+  .office_service {
+    padding: 5px;
+  }
+
+  .asset_item {
+    padding: 5px;
+  }
+
+  .footer_logo {
+    font-size: 36px;
+  }
+
+  .footer_image {
+    margin-right: 5px;
+  }
+
+  .about_introduction {
+    background-size: 170% 100%;
+  }
+
+  .WWA_block {
+    padding: 5px;
+  }
+
+  .HWW_block {
+    padding: 5px;
+  }
+
+  .code_introduction {
+    background-size: 380% 100%;
+  }
+
+  .team_introduction {
+    background-size: 320% 100%;
+  }
+
+  .our_services_introduction {
+    background-size: 320% 100%;
+  }
+
+  .liquid_introduction {
+    background-size: 430% 100%;
+  }
+
+  .family_introduction {
+    height: 350px;
+  }
+
+  .family_block {
+    padding: 5px;
+  }
+
+  .investment_logo {
+    height: 30px;
+  }
+
+  .investment_title {
+    font-size: 20px;
+  }
+}
