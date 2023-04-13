@@ -255,7 +255,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 30px 30px 100px;
+  padding: 10px 30px 100px;
   text-align: center;
   list-style: none;
   height: 100%;
