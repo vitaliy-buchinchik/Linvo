@@ -21,7 +21,7 @@ body {
 
 .introduction {
   height: 640px;
-  background-image: url('../images/homepage/introduction_bg.png');
+  background-image: url('../images/homepage/introduction_bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: 100% 100%;
@@ -369,7 +369,7 @@ body {
 
 .contact {
   height: auto;
-  background: url('../images/homepage/contact_1.png'), url('../images/homepage/contact_2.png');
+  background: url('../images/homepage/contact_1.jpg'), url('../images/homepage/contact_2.png');
   background-position: left bottom, right bottom;
   background-repeat: no-repeat no-repeat;
   background-size: 60% 100%, 100% 100%;
@@ -780,7 +780,7 @@ body {
   }
 
   .contact {
-    background: url('../images/homepage/contact_1.png');
+    background: url('../images/homepage/contact_1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 140%;
