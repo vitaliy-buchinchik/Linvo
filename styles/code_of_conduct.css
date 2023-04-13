@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  --oswald-font: 'Oswald', 'Helvetica', 'sans-serif';
+  --roboto-font: 'Roboto', 'Helvetica', 'sans-serif';
+  --montserrat-font: 'Montserrat', 'Helvetica', 'sans-serif';
+}
+
+html,
+body {
+  width: 100vw;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.code_body {
+  background-color: #fafafa;
+}
+
+.code_introduction {
+  background-image: url('../images/code_of_conduct/introduction_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+}
+
+.code_introduction_info {
+  color: #fff;
+}
+
+.code_introduction_title {
+  padding-top: 160px;
+  padding-bottom: 8px;
+}
+
+.code_introduction_text {
+  font-family: var(--roboto-font);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  padding-bottom: 205px;
+}
+
+.code_block_title {
+  font-family: var(--oswald-font);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.33;
+  padding-bottom: 8px;
+  color: #212121;
+}
+
+.code_block_subtitle {
+  font-family: var(--roboto-font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-bottom: 24px;
+  color: #212121;
+}
+
+.code_block_text {
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212121;
+}
+
+.code_block_image {
+  width: 540px;
+  height: 480px;
+}
+
+.wealth_managing_wrapper {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.wealth_managing_info {
+  padding-right: 72px;
+}
+
+.life_investment {
+  background-color: #282428;
+}
+
+.life_investment_wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 120px 0;
+}
+
+.life_investment_info {
+  padding-left: 72px;
+}
+
+.life_investment_block_title,
+.life_investment_block_subtitle,
+.life_investment_block_text {
+  color: #fff;
+}
+
+.asset_plan_wrapper {
+  display: flex;
+  padding: 120px 0;
+}
+
+.asset_plan_info {
+  padding-right: 72px;
+}
+
+.wealth_advisory {
+  background-color: #282428;
+}
+
+.wealth_advisory_wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 120px 0;
+}
+
+.wealth_advisory_info {
+  padding-left: 72px;
+}
+
+.wealth_advisory_block_title,
+.wealth_advisory_block_subtitle,
+.wealth_advisory_block_text {
+  color: #fff;
+}
+
+@media (max-width: 1600px) {
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 1366px) {
+  .code_introduction_text {
+    font-size: 18px;
+  }
+
+  .code_introduction {
+    background-size: 105% 100%;
+  }
+
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 1280px) {
+  .code_introduction {
+    background-size: 115% 100%;
+    background-position: center;
+  }
+
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .code_introduction_text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .code_introduction {
+    background-size: 150% 100%;
+  }
+
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .wealth_managing_info,
+  .asset_plan_info,
+  .life_investment_info,
+  .wealth_advisory_info {
+    padding: 0 0 40px 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .code_introduction {
+    background-size: 170% 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .code_introduction {
+    background-size: 180% 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .code_introduction {
+    height: 400px;
+    background-size: 230% 100%;
+  }
+
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper {
+    padding: 30px 0;
+  }
+
+  .code_block_title {
+    font-size: 32px;
+  }
+
+  .code_block_subtitle {
+    padding-bottom: 16px;
+  }
+
+  .wealth_managing_info,
+  .asset_plan_info,
+  .life_investment_info,
+  .wealth_advisory_info {
+    padding-bottom: 30px;
+  }
+
+  .code_block_image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .code_introduction {
+    background-size: 250% 100%;
+  }
+}
+
+@media (max-width: 393px) {
+  .code_block_title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 384px) {
+  .code_introduction {
+    background-size: 330% 100%;
+  }
+
+  .code_introduction_text {
+    padding-bottom: 0;
+  }
+
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper {
+    padding: 10px 0;
+  }
+
+  .wealth_managing_info,
+  .asset_plan_info,
+  .life_investment_info,
+  .wealth_advisory_info {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .code_introduction {
+    background-size: 270% 100%;
+  }
+
+  .wealth_managing_wrapper,
+  .life_investment_wrapper,
+  .asset_plan_wrapper,
+  .wealth_advisory_wrapper {
+    padding: 20px 0;
+  }
+
+  .wealth_managing_info,
+  .asset_plan_info,
+  .life_investment_info,
+  .wealth_advisory_info {
+    padding-bottom: 20px;
+  }
+
+  .code_block_subtitle {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 393px) {
+  .code_introduction {
+    background-size: 300% 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .code_block_subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .code_introduction {
+    background-size: 380% 100%;
+  }
+}
+

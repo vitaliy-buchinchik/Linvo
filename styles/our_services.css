@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  --oswald-font: 'Oswald', 'Helvetica', 'sans-serif';
+  --roboto-font: 'Roboto', 'Helvetica', 'sans-serif';
+  --montserrat-font: 'Montserrat', 'Helvetica', 'sans-serif';
+}
+
+html,
+body {
+  width: 100vw;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.our_services {
+  background-color: #eaeaea;
+}
+
+.our_services_introduction {
+  background-image: url('../images/services/services_introduction_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  background-position: 100% 100%;
+}
+
+.our_services_introduction_info {
+  padding-top: 160px;
+  padding-bottom: 205px;
+  color: #fff;
+}
+
+.our_services_introduction_title {
+  padding-bottom: 8px;
+}
+
+.our_services_text {
+  font-family: var(--roboto-font);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.links_top_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0 40px;
+}
+
+.our_services_link {
+  text-decoration: none;
+  color: #212121;
+}
+
+.our_services_link_image {
+  width: 564px;
+  height: 282px;
+}
+
+.our_services_link_title {
+  font-family: var(--oswald-font);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.6;
+  padding: 16px 0 8px;
+}
+
+.links_bottom_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 1600px) {
+  .our_services_introduction {
+    background-size: 100% 110%;
+  }
+
+  .links_top_wrapper {
+    padding: 80px 0 60px;
+  }
+
+  .links_bottom_wrapper {
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .our_services_introduction {
+    background-size: 100% 100%;
+  }
+
+  .links_top_wrapper {
+    padding: 70px 0 55px;
+  }
+
+  .links_bottom_wrapper {
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .our_services_introduction {
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+  }
+
+  .links_top_wrapper {
+    padding: 60px 0 50px;
+  }
+
+  .links_bottom_wrapper {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .our_services_introduction {
+    background-size: 110% 100%;
+    background-position: center;
+  }
+
+  .links_top_wrapper {
+    padding: 50px 0;
+  }
+
+  .links_bottom_wrapper {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .links_top_wrapper {
+    padding: 40px 0;
+  }
+
+  .links_bottom_wrapper {
+    padding-bottom: 40px;
+  }
+
+  .our_services_introduction {
+    background-size: 120% 100%;
+    background-position: center;
+  }
+
+  .our_services_link {
+    width: 48%;
+    text-align: center;
+  }
+
+  .our_services_link_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .our_services_link_title {
+    font-size: 26px;
+    line-height: 1.5;
+    padding: 8px 0;
+  }
+
+  .our_services_text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 540px) {
+  .links_top_wrapper {
+    padding: 30px 0;
+  }
+
+  .our_services_introduction {
+    height: 400px;
+    background-size: 200% 100%;
+  }
+
+  .links_top_wrapper,
+  .links_bottom_wrapper {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .our_services_link {
+    width: 100%;
+  }
+
+  .links_bottom_wrapper {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .our_services_introduction {
+    background-size: 220% 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .links_top_wrapper {
+    padding: 20px 0;
+  }
+
+  .our_services_introduction {
+    background-size: 240% 100%;
+  }
+
+  .links_top_wrapper,
+  .links_bottom_wrapper {
+    gap: 20px;
+  }
+
+  .links_bottom_wrapper {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 384px) {
+  .links_top_wrapper {
+    padding: 10px 0;
+  }
+
+  .our_services_introduction {
+    background-size: 300% 100%;
+  }
+
+  .our_services_introduction_info {
+    padding-bottom: 0;
+  }
+
+  .our_services_link_title {
+    padding: 0;
+  }
+
+  .links_top_wrapper,
+  .links_bottom_wrapper {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .our_services_link_title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .our_services_introduction {
+    background-size: 320% 100%;
+  }
+}
