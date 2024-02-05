@@ -245,7 +245,7 @@ body {
   position: absolute;
   top: 80px;
   left: -100%;
-  height: calc(100vh - 80px);
+  height: calc(100dvh - 80px);
   width: 100%;
   border-top: 2px solid #973224;
   transition: all 0.2s;
@@ -558,7 +558,7 @@ body {
   }
 
   .mobile_nav {
-    height: calc(100vh - 60px);
+    height: calc(100dvh - 60px);
     top: 60px;
   }
 
